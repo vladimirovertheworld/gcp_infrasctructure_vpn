@@ -1,12 +1,12 @@
-Key Security Features Implemented
+###Key Security Features Implemented
 
-Strong Cryptography:
+##Strong Cryptography:
 
 OpenVPN: AES-256-GCM, SHA256, TLS 1.2+
 WireGuard: ChaCha20Poly1305 (built-in)
 
 
-Server Hardening:
+#Server Hardening:
 
 Minimal Ubuntu Server LTS
 Automatic security updates
@@ -17,20 +17,20 @@ Dedicated non-root user for VPN service
 Secure sysctl parameters
 
 
-Network Security:
+#Network Security:
 
 Dedicated VPC network and subnet
 Restrictive firewall rules
 
 
-PKI Management:
+#PKI Management:
 
 4096-bit RSA keys
 Scripts for certificate generation and management
 YubiKey PKCS#11 support for hardware-backed authentication
 
 
-Logging and Monitoring:
+#Logging and Monitoring:
 
 Centralized logging
 Log rotation
